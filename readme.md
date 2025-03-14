@@ -13,6 +13,16 @@ The returned data is a sample dump of quickbooks report (profit & loss), you can
 
 The schema's a nested representation of data header rows. You can explore genson/datamodel-codegen or other tools to create models from the data/json file to simplify your workflow.
 
+## Run react frontend client
+
+```
+cd client
+npm install
+npm run dev
+```
+Verify the Frontend running on http://localhost:5173/
+
+
 ## Assignment
 - [ ] Build a simple frontend app in react to show the consumed report data in the following table format.
 - [ ] Update the backend server as required to simplify rendering data for UI.
